@@ -1,0 +1,91 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color:white;
+    padding: 1rem;
+    color:rgb(203, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: rgba(43, 0, 255, 0.865);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #060605;
+}
+.hero {
+
+    text-align: center;
+    padding: 10rem;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.5) 100%, rgb(7, 7, 5) 100%),url(stock-vector-red-fire-polygonal-mosaic-background-vector-illustration-creative-business-design-templates.jpg);
+    background-size: cover;
+  background-position: center;
+}
+
+.logo {
+    margin-bottom: 1rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}.button-group a {
+    text-decoration: none;
+    color:rgb(193, 38, 38);
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.donor-button {
+    background-color: white
+}
+
+.donor-button:hover {
+    background-color:#0277bd;
+}
+
+.accepter-button {
+    background-color:white;
+}
+
+.accepter-button:hover {
+    background-color: green;
+}
+
+footer {
+    background-color:white;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
